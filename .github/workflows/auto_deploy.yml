@@ -39,4 +39,4 @@ jobs:
   
   # Runs a set of commands using the runners shell
     - name: Deploy On surge 
-      run: surge ./build reduxapp.surge.sh --token "75dab03df6ba11d5a46954af5c18ec35"
+      run: surge ./build reduxapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
