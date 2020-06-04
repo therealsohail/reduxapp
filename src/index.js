@@ -9,11 +9,7 @@ const increment = () => {
     type: "Increment",
   };
 };
-const decrement = () => {
-  return {
-    type: "Decrement",
-  };
-};
+
 //reducers
 const counter = (state = 0, action) => {
   // eslint-disable-next-line default-case
